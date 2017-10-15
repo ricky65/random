@@ -433,7 +433,7 @@ namespace effolkronium {
         static Engine& engine_instance( ) {
             Seeder seeder{ };
             static Engine engine{ seeder( ) };
-            return engine
+            return engine;
         }
     };
 
